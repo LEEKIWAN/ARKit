@@ -13,6 +13,9 @@ import ARKit
 enum BodyType: Int {
     case box = 1
     case plane = 2
+    case barrier = 3
+    case bullet = 4
+    case car = 5
 }
 
 class OverlayPlanesViewController: UIViewController, ARSCNViewDelegate {

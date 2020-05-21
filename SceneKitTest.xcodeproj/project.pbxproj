@@ -12,7 +12,11 @@
 		831C0124245EBA48000425CF /* SimpleBoxWithTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C0123245EBA48000425CF /* SimpleBoxWithTouchViewController.swift */; };
 		831C0127245EE8D1000425CF /* OverlayPlanesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C0126245EE8D1000425CF /* OverlayPlanesViewController.swift */; };
 		831C0129245EE94D000425CF /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C0128245EE94D000425CF /* OverlayPlane.swift */; };
+		8331E83924764D29003214C5 /* GameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8331E83824764D29003214C5 /* GameButton.swift */; };
 		835F83D72465486000D06537 /* MIssileLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F83D62465486000D06537 /* MIssileLaunchViewController.swift */; };
+		837AC12A2474F26000E26C77 /* LightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837AC1292474F26000E26C77 /* LightViewController.swift */; };
+		837AC12C247523A300E26C77 /* car.dae in Resources */ = {isa = PBXBuildFile; fileRef = 837AC12B247523A200E26C77 /* car.dae */; };
+		837AC12F247523F700E26C77 /* RemoteCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837AC12E247523F700E26C77 /* RemoteCarViewController.swift */; };
 		83997DAB246A98D600E0D901 /* TargetAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83997DAA246A98D600E0D901 /* TargetAppViewController.swift */; };
 		839EB26B245DCB1A00EBF8CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839EB26A245DCB1A00EBF8CC /* AppDelegate.swift */; };
 		839EB26D245DCB1A00EBF8CC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 839EB26C245DCB1A00EBF8CC /* art.scnassets */; };
@@ -23,6 +27,9 @@
 		83BFD74E2467BE7B00F6BED4 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BFD74C2467BE7B00F6BED4 /* smoke.png */; };
 		83BFD7512467FBFE00F6BED4 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BFD74F2467FBFE00F6BED4 /* spark.png */; };
 		83BFD7522467FBFE00F6BED4 /* fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 83BFD7502467FBFE00F6BED4 /* fire.scnp */; };
+		83BFE33D2472507E00EB559D /* MeasurementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BFE33C2472507E00EB559D /* MeasurementViewController.swift */; };
+		83BFE3402473A7E700EB559D /* GoogleBlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BFE33F2473A7E700EB559D /* GoogleBlockViewController.swift */; };
+		83BFE3422473A82000EB559D /* Dragon.dae in Resources */ = {isa = PBXBuildFile; fileRef = 83BFE3412473A82000EB559D /* Dragon.dae */; };
 		83F10DC62467AFF500BD06C7 /* Missile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F10DC52467AFF500BD06C7 /* Missile.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +39,11 @@
 		831C0123245EBA48000425CF /* SimpleBoxWithTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBoxWithTouchViewController.swift; sourceTree = "<group>"; };
 		831C0126245EE8D1000425CF /* OverlayPlanesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPlanesViewController.swift; sourceTree = "<group>"; };
 		831C0128245EE94D000425CF /* OverlayPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
+		8331E83824764D29003214C5 /* GameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButton.swift; sourceTree = "<group>"; };
 		835F83D62465486000D06537 /* MIssileLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIssileLaunchViewController.swift; sourceTree = "<group>"; };
+		837AC1292474F26000E26C77 /* LightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightViewController.swift; sourceTree = "<group>"; };
+		837AC12B247523A200E26C77 /* car.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = car.dae; sourceTree = "<group>"; };
+		837AC12E247523F700E26C77 /* RemoteCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCarViewController.swift; sourceTree = "<group>"; };
 		83997DAA246A98D600E0D901 /* TargetAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetAppViewController.swift; sourceTree = "<group>"; };
 		839EB267245DCB1A00EBF8CC /* SceneKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		839EB26A245DCB1A00EBF8CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +56,9 @@
 		83BFD74C2467BE7B00F6BED4 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
 		83BFD74F2467FBFE00F6BED4 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		83BFD7502467FBFE00F6BED4 /* fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = fire.scnp; sourceTree = "<group>"; };
+		83BFE33C2472507E00EB559D /* MeasurementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementViewController.swift; sourceTree = "<group>"; };
+		83BFE33F2473A7E700EB559D /* GoogleBlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBlockViewController.swift; sourceTree = "<group>"; };
+		83BFE3412473A82000EB559D /* Dragon.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Dragon.dae; sourceTree = "<group>"; };
 		83F10DC52467AFF500BD06C7 /* Missile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +106,14 @@
 			path = OverlayingPlanes;
 			sourceTree = "<group>";
 		};
+		83499B43246FD0900089F8D7 /* MeasurementApp */ = {
+			isa = PBXGroup;
+			children = (
+				83BFE33C2472507E00EB559D /* MeasurementViewController.swift */,
+			);
+			path = MeasurementApp;
+			sourceTree = "<group>";
+		};
 		835F83B52465482F00D06537 /* MissileLaunch */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +125,24 @@
 				83BFD74F2467FBFE00F6BED4 /* spark.png */,
 			);
 			path = MissileLaunch;
+			sourceTree = "<group>";
+		};
+		837AC1252474F1F300E26C77 /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				837AC1292474F26000E26C77 /* LightViewController.swift */,
+			);
+			path = Light;
+			sourceTree = "<group>";
+		};
+		837AC12D247523E600E26C77 /* Remote-Car */ = {
+			isa = PBXGroup;
+			children = (
+				837AC12B247523A200E26C77 /* car.dae */,
+				837AC12E247523F700E26C77 /* RemoteCarViewController.swift */,
+				8331E83824764D29003214C5 /* GameButton.swift */,
+			);
+			path = "Remote-Car";
 			sourceTree = "<group>";
 		};
 		83997DA9246A98C200E0D901 /* TargetApp */ = {
@@ -134,6 +174,10 @@
 			children = (
 				831C011C245E9B9A000425CF /* Extention */,
 				839EB26A245DCB1A00EBF8CC /* AppDelegate.swift */,
+				837AC12D247523E600E26C77 /* Remote-Car */,
+				837AC1252474F1F300E26C77 /* Light */,
+				83BFE33E2473A7D000EB559D /* GoogleBlocks */,
+				83499B43246FD0900089F8D7 /* MeasurementApp */,
 				83997DA9246A98C200E0D901 /* TargetApp */,
 				835F83B52465482F00D06537 /* MissileLaunch */,
 				831C0125245EBB0A000425CF /* OverlayingPlanes */,
@@ -146,6 +190,15 @@
 				839EB278245DCB1B00EBF8CC /* Info.plist */,
 			);
 			path = SceneKitTest;
+			sourceTree = "<group>";
+		};
+		83BFE33E2473A7D000EB559D /* GoogleBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				83BFE3412473A82000EB559D /* Dragon.dae */,
+				83BFE33F2473A7E700EB559D /* GoogleBlockViewController.swift */,
+			);
+			path = GoogleBlocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,9 +262,11 @@
 				839EB26D245DCB1A00EBF8CC /* art.scnassets in Resources */,
 				83BFD7522467FBFE00F6BED4 /* fire.scnp in Resources */,
 				83BFD74E2467BE7B00F6BED4 /* smoke.png in Resources */,
+				83BFE3422473A82000EB559D /* Dragon.dae in Resources */,
 				839EB277245DCB1B00EBF8CC /* LaunchScreen.storyboard in Resources */,
 				83BFD7512467FBFE00F6BED4 /* spark.png in Resources */,
 				839EB274245DCB1B00EBF8CC /* Assets.xcassets in Resources */,
+				837AC12C247523A300E26C77 /* car.dae in Resources */,
 				83BFD74D2467BE7B00F6BED4 /* smoke.scnp in Resources */,
 				839EB272245DCB1A00EBF8CC /* Main.storyboard in Resources */,
 			);
@@ -225,14 +280,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				83997DAB246A98D600E0D901 /* TargetAppViewController.swift in Sources */,
+				8331E83924764D29003214C5 /* GameButton.swift in Sources */,
+				83BFE33D2472507E00EB559D /* MeasurementViewController.swift in Sources */,
 				831C011E245E9C5C000425CF /* Extenstions.swift in Sources */,
 				831C0129245EE94D000425CF /* OverlayPlane.swift in Sources */,
+				83BFE3402473A7E700EB559D /* GoogleBlockViewController.swift in Sources */,
 				835F83D72465486000D06537 /* MIssileLaunchViewController.swift in Sources */,
 				839EB26B245DCB1A00EBF8CC /* AppDelegate.swift in Sources */,
+				837AC12A2474F26000E26C77 /* LightViewController.swift in Sources */,
 				831C0121245EB9BB000425CF /* MultipleObjectsViewController.swift in Sources */,
 				831C0124245EBA48000425CF /* SimpleBoxWithTouchViewController.swift in Sources */,
 				83F10DC62467AFF500BD06C7 /* Missile.swift in Sources */,
 				831C0127245EE8D1000425CF /* OverlayPlanesViewController.swift in Sources */,
+				837AC12F247523F700E26C77 /* RemoteCarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
